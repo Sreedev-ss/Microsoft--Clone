@@ -1,0 +1,823 @@
+.Container{
+    height: 60px;
+}
+body{
+    margin: 0;
+}
+.mainbody{
+    width: 100%;
+    height: 600px;
+    vertical-align: middle;
+}
+img{
+    width: 100%;
+}
+
+.Heading{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+    font-style: inherit;
+    font-size: xx-large;
+    position:absolute;
+    top: 160px;
+    padding-left: 126px;
+}
+.Para{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:black;
+    font-style: inherit;
+    position:absolute;
+    top:225px;
+    padding-left: 126px;
+    line-height: 1.6;
+}
+.logo{
+    float: left;
+   
+    width: 216px;
+    height: 46px;
+    scale: 50%;
+    padding-left: 46px;
+    padding-top: 10px;
+}
+.Headerleft{
+    float: left;
+    height: 60px;
+    margin-left: -75px;
+    margin-top: -2px; 
+
+    
+}
+.Headerleft li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+.Headerleft li a{
+    color: black;
+    text-decoration: none;
+}
+.Headerleft li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.Righttop{
+    position: absolute;
+    top: 25px;
+    margin-left: 1000px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style: none;
+    font-size: small;
+    
+}
+.Righttop li{
+    display: inline-block;
+}
+.Righttop li a{
+    color: black;
+    text-decoration: none;
+}
+.Righttop li a:hover{
+    border-bottom: 2px solid black;
+}
+#Righttop1{
+    position: absolute;
+    width: max-content;
+    margin-left: 21px;
+  }
+#Righttop2{
+    position: absolute;
+    width: max-content;
+    margin-left: 127px;
+  }
+#Righttop3{
+    position: absolute;
+    width: max-content;
+    margin-left: 213px;
+  }
+#Righttop4{
+    position: absolute;
+    width: max-content;
+    margin-left: 276px;
+}
+.Rightimage{
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#Rightimage1{
+    position: absolute;
+    scale: 1.2%;
+    top: -685px;
+    margin-left: 381px;    
+    opacity: 50%;
+}
+#Rightimage2{
+    position: absolute;
+    scale: 1.2%;
+    top: -687px;
+    margin-left: 458px;
+    transform: scaleX(-1);
+    opacity: 50%;   
+}
+#Rightimage3{
+    position: absolute;
+    scale: 1.2%;
+    top: -687px;
+    margin-left: 528px;  
+    opacity: 50%;  
+}
+#Rightimage4{
+    position: absolute;
+    scale: 2.8%;
+    top: -705px;
+    margin-left: 618px;    
+}
+.Button1{
+    position: absolute;
+    margin-left: 129px;
+    top: 340px;
+    text-decoration: none;
+}
+.Button{
+    color: #fff;
+    background: #0067b8;
+    border-color: #0067b8;
+    width: 130px;
+    height: 50px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+.arrow{
+    position: absolute;
+    scale:50%;
+    left:490px;
+    top: 500px;
+}
+.Text-button{
+    position: absolute;
+    left: 286px;
+    top: 342px;
+    color: #0067b8;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: small;
+   
+}
+#Text-button1{
+    font-weight: initial;
+}
+#Text-button1:hover{
+    border-bottom: 1px solid #0067b8;
+}
+.Small-logo1{
+    position: absolute;
+    scale: 100%;
+    left: 420px;
+    top: 620px;
+}
+.Small-logo2{
+    position: absolute;
+    scale: 100%;
+    left: 640px;
+    top : 620px;
+}
+.Small-logo3{
+    position: absolute;
+    scale: 100%;
+    left: 830px;
+    top : 620px;
+}
+.Small-logo4{
+    position: absolute;
+    scale: 100%;
+    left: 1000px;
+    top : 620px;
+}
+.Small-logos-text ul{
+    position:absolute;
+    list-style-type: none;
+}
+.Small-logos-text ul li{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.Small-logos-text ul li a{
+    color: #0067b8;
+
+}
+#Tag1{
+    position: absolute;
+    top:0.5px;
+    left: 350px;
+    width: max-content;
+    
+}
+#Tag2{
+    position: absolute;
+    top: 0.5px;
+    left: 580px;
+    width: max-content;
+}
+#Tag3{
+    position: absolute;
+    top:0.5px;
+    left:790px;
+    width: max-content;
+
+}
+#Tag4{
+    position: absolute;
+    top: 0.5px;
+    left: 970px;
+    width: max-content;
+
+}
+#Content-1{
+    position: absolute;
+    padding-top: 110px;
+    width: 380px;
+    height: 213px;
+    left: 35px;
+    scale: 80%;
+}
+#Content-2{
+    position: absolute;
+    padding-top: 110px;
+    width: 380px;
+    height: 213px;
+    scale: 80%;
+    padding-left: 410px;
+}
+#Content-3{
+    position: absolute;
+    padding-top: 110px;
+    width: 380px;
+    height: 213px;
+    scale: 80%;
+    padding-left: 778px;
+}
+#Content-4{
+    position: absolute;
+    padding-top: 110px;
+    width: 380px;
+    height: 213px;
+    scale: 80%;
+    padding-left: 1140px;
+}
+.Content-text{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+#Contenttext1{
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 350px;
+    left: 73px;
+}
+#Contenttext2{
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 350px;
+    left: 414px;
+}
+#Contenttext3{
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 350px;
+    left: 742px;
+}
+#Contenttext4{
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 350px;
+    left: 1066px;
+}
+.newbutton{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 69px;
+    height: 31px;
+    background-color: #ffb900; 
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    left: 73px;
+    margin-top: 309px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.Contentpara{
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    
+}
+#Contentpara1{
+    position: absolute;
+    left: 73px;
+    margin-top: 390px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: small;
+}
+#Contentpara2{
+    position: absolute;
+    left: 414px;
+    margin-top: 390px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: small;
+}
+#Contentpara3{
+    position: absolute;
+    left: 742px;
+    margin-top: 390px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: small;
+}
+#Contentpara4{
+    position: absolute;
+    left: 1060px;
+    margin-top: 420px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: small;
+}
+.Contentlink{
+    position: absolute;
+    left: 73px;
+    margin-top: 470px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.Contentlink h3{
+    display: inline-block;
+}
+.Contentlink h3 a{
+    color: #0067b8;
+    text-decoration: none;
+
+}
+.Contentlink h3 a:hover{
+    border-bottom: 1px solid #0067b8;
+}
+#Contentlink1{
+    position: absolute;
+    left: 1px;
+    width: max-content;
+    
+}
+#Contentlink2{
+    position: absolute;
+    left: 341px;
+    width: max-content;
+}
+#Contentlink3{
+    position: absolute;
+    left: 670px;
+    width: max-content;
+}
+#Contentlink4{
+    position: absolute;
+    left: 985px;
+    margin-top: 46px;
+    width: max-content;
+}
+.linkarrow{
+    color: #0067b8;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.linkarrow h3{
+    display: inline-block; 
+    font-weight: 400;
+}
+#linkarrow1{
+    position: absolute;
+    left: 183px;
+    margin-top: 486px;
+}
+#linkarrow2{
+    position: absolute;
+    left: 511px;
+    margin-top: 486px;
+}
+
+#linkarrow3{
+    position: absolute;
+    left: 831px;
+    margin-top: 486px;
+}
+#linkarrow4{
+    position: absolute;
+    left: 1267px;
+    margin-top: 513px;
+}
+.Bannerdown{
+    position: absolute;
+    margin-top: 600px;
+    width: 1596px;
+    height: 600px;
+    scale: 82%;
+    margin-left: -76px;
+
+}
+.Bannerwhite{
+    position: absolute;
+    box-shadow:0px 0px 12px rgb(76, 76, 76);
+    margin-top: 780px;
+    margin-left: 121px;
+    width: 436px;
+    height: 284px;
+    background-color: rgb(255, 254, 254);
+}
+.Bannerwhitehead{
+    padding-top: 23px;
+    padding-left: 34px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+    font-size: xx-large;
+}
+.Bannerwhitetext{
+    
+    padding-left: 34px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+    line-height: 26px;
+    margin-top: -11px;
+}
+.Bannerbutton{
+    margin-left: 33px;
+    color: #fff;
+    background: #0067b8;
+    border-color: #0067b8;
+    width: 130px;
+    height: 50px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+
+}
+#Adv-heading{
+    position: absolute;
+    margin-top: 1230px;
+    left: 73px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+    #Adv-1{
+        position: absolute;
+        margin-top: 1261px;
+        width: 380px;
+        height: 213px;
+        left: 35px;
+        scale: 80%;
+    }
+    #Adv-2{
+        position: absolute;
+        margin-top: 1261px;
+        width: 380px;
+        height: 213px;
+        scale: 80%;
+        padding-left: 410px;
+    }
+    #Adv-3{
+        position: absolute;
+        margin-top: 1261px;
+        width: 380px;
+        height: 213px;
+        scale: 80%;
+        padding-left: 778px;
+    }
+    #Adv-4{
+        position: absolute;
+        margin-top: 1261px;
+        width: 380px;
+        height: 213px;
+        scale: 80%;
+        padding-left: 1140px;
+    }
+    .newbutton1{
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        width: 69px;
+        height: 31px;
+        background-color: #ffb900; 
+        align-items: center; 
+        display: flex; 
+        justify-content: center;
+        position: absolute;
+        left: 73px;
+        margin-top: 1469px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    
+    .Advtext{
+        font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    #Advtext1{
+        position: absolute;
+        left: 73px;
+        margin-top: 1509px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    #Advtext2{
+        position: absolute;
+        left: 414px;
+        margin-top: 1509px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    #Advtext3{
+        position: absolute;
+        left: 742px;
+        margin-top: 1509px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    #Advtext4{
+        position: absolute;
+        left: 1060px;
+        margin-top: 1509px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .Advpara{
+        font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+       
+        
+    }
+    #Advpara1{
+        position: absolute;
+        left: 73px;
+        margin-top: 1585px;
+        line-height: 22px;
+        font-weight: 500;
+        font-size: small;
+    }
+    #Advpara2{
+        position: absolute;
+        left: 414px;
+        margin-top: 1585px;
+        line-height: 22px;
+        font-weight: 500;
+        font-size: small;
+    }
+    #Advpara3{
+        position: absolute;
+        left: 742px;
+        margin-top: 1585px;
+        line-height: 22px;
+        font-weight: 500;
+        font-size: small;
+    }
+    #Advpara4{
+        position: absolute;
+        left: 1060px;
+        margin-top: 1585px;
+        line-height: 22px;
+        font-weight: 500;
+        font-size: small;
+    }
+    .Advlink{
+        position: absolute;
+        left: 73px;
+        margin-top: 470px;
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    .Advlink h3{
+        display: inline-block;
+    }
+    .Advlink h3 a{
+        color: #0067b8;
+        text-decoration: none;
+    
+    }
+    .Advlink h3 a:hover{
+        border-bottom: 1px solid #0067b8;
+    }
+    #Advlink1{
+        position: absolute;
+        left: 1px;
+        width: max-content;
+        margin-top: 1206px;
+        
+    }
+    #Advlink2{
+        position: absolute;
+        left: 341px;
+        width: max-content;
+        margin-top: 1206px;
+    }
+    #Advlink3{
+        position: absolute;
+        left: 670px;
+        width: max-content;
+        margin-top: 1206px;
+    }
+    #Advlink4{
+        position: absolute;
+        left: 985px;
+        margin-top: 46px;
+        width: max-content;
+        margin-top: 1206px;
+    }
+    .Advarrow{
+        color: #0067b8;
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    
+    .Advarrow h3{
+        display: inline-block; 
+        font-weight: 400;
+    }
+    #Advarrow1{
+        position: absolute;
+        left: 183px;
+        margin-top: 1675px;
+    }
+    #Advarrow2{
+        position: absolute;
+        left: 559px;
+        margin-top: 1675px;
+    }
+    
+    #Advarrow3{
+        position: absolute;
+        left: 840px;
+        margin-top: 1675px;
+    }
+    #Advarrow4{
+        position: absolute;
+        left: 1168px;
+        margin-top: 1674px;
+    }
+#Social{
+    position: absolute;
+    margin-top: 1754px;
+    left: 67px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: unset;
+    font-weight: inherit;
+}
+    
+    #Fb{
+        position: absolute;
+        margin-top: 1044px;
+        margin-left: -500px;
+        scale: 2%;
+    }
+    #Twitter{
+        position: absolute;
+        margin-top: 1044px;
+        margin-left: -454px;
+        scale: 2%;
+    }
+    #Yt{
+        position: absolute;
+        margin-top: 1044px;
+        margin-left: -403px;
+        scale: 2%;
+      
+    }
+
+    .backtotop a{
+        position: absolute;
+        color: black;
+        left: 1277px;
+        margin-top: 1726px;
+        width: 150px;
+        height: 52px;
+        background-color: rgb(215, 215, 212);
+        align-items: center;
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        box-shadow:0px 0px 1px rgb(76, 76, 76);
+     
+      
+    }
+    .backtotop a:hover{
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow:0px 0px 5px rgb(76, 76, 76);
+    }
+    #arrowupimg{
+            position: absolute;
+            left: -57px;
+            margin-top: 1px;
+            scale:16%;
+    }
+   .footer{
+    width: 100%;
+    height: 418px;
+    margin-top: 1850px;
+    background-color: black;
+    opacity: 7%;
+    }
+
+.footermain{
+    position: absolute;
+    margin-top: -378px;
+    margin-left: 188px;
+    scale: 112%;
+    color: black;   
+    opacity: 55%;
+    line-height: 29px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: x-small;
+    
+}
+td{
+    padding: 0px 30px;
+}
+thead{
+    font-size: larger;
+    font-weight: bold;
+}
+td a{
+    text-decoration: none;
+    color: black;
+   
+}
+td a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.Endleft{
+    margin-top: -63px;
+    margin-left: 80px;
+    width: 2%;
+    height: 40px;
+    opacity: 50%;
+    
+}
+
+.Endleft h4 a{
+    position: absolute;
+    margin-top: 15px;
+    left: 113px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: x-small;
+    text-decoration: none;
+    color: black;
+}
+.Endleft h4 a:hover{
+    border-bottom: 1px solid black;
+}
+.Endright{
+    margin-left: 615px;
+   
+}
+.Endright ul{
+    list-style-type: none;
+    position: absolute;
+    width: max-content;
+    margin-top: 11px;
+   
+}
+.Endright img{
+    position: absolute;
+    scale:1%;
+    margin-top: -700px;
+    left: 535px;
+}
+.Endright ul li{
+    display: inline-block;
+}
+.Endright ul li a{
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: x-small;
+    margin-top: -61px;
+    color: black;
+    margin-left: 35px;
+   
+}
+.Endright ul li a:hover{
+    border-bottom: 1px solid black;
+}
+#Copyright{
+    padding-left: 15px;
+}
+#Globesymbol{
+    position: absolute;
+    scale: 1.5%;
+    top: 2189px;
+    opacity: 50%;
+    margin-left:-620px; 
+}
